@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb4df"
+  },
+  "id": 35,
+  "first_name": "Sascha",
+  "last_name": "Janaway",
+  "team": "Yankees",
+  "State": "New York",
+  "year": 2002,
+  "price": 29.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb635"
+  },
+  "id": 377,
+  "first_name": "Donica",
+  "last_name": "Cruddace",
+  "team": "Angels",
+  "State": "Texas",
+  "year": 1999,
+  "price": 34.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb88a"
+  },
+  "id": 974,
+  "first_name": "Joshua",
+  "last_name": "Baudet",
+  "team": "Dodgers",
+  "State": "California",
+  "year": 1987,
+  "price": 12.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb63b"
+  },
+  "id": 383,
+  "first_name": "Breanne",
+  "last_name": "Bugler",
+  "team": "Astros",
+  "State": "Minnesota",
+  "year": 2012,
+  "price": 5.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb66d"
+  },
+  "id": 433,
+  "first_name": "Myron",
+  "last_name": "Sigart",
+  "team": "Braves",
+  "State": "West Virginia",
+  "year": 1986,
+  "price": 12.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb4db"
+  },
+  "id": 31,
+  "first_name": "Kylie",
+  "last_name": "Boyne",
+  "team": "Dodgers",
+  "State": "California",
+  "year": 1982,
+  "price": 3.49
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb5cd"
+  },
+  "id": 273,
+  "first_name": "Adah",
+  "last_name": "Brundell",
+  "team": "Cubs",
+  "State": "Iowa",
+  "year": 1987,
+  "price": 18.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb661"
+  },
+  "id": 421,
+  "first_name": "Melodee",
+  "last_name": "Brookz",
+  "team": "Mets",
+  "State": "Ohio",
+  "year": 2008,
+  "price": 249.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb619"
+  },
+  "id": 349,
+  "first_name": "Chrissy",
+  "last_name": "Langstone",
+  "team": "Giants",
+  "State": "Michigan",
+  "year": 2008,
+  "price": 5.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb4e4"
+  },
+  "id": 40,
+  "first_name": "Isabella",
+  "last_name": "Spurriar",
+  "team": "Dodgers",
+  "State": "Kentucky",
+  "year": 2010,
+  "price": 14.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb80e"
+  },
+  "id": 850,
+  "first_name": "Adi",
+  "last_name": "Casine",
+  "team": "Mets",
+  "State": "California",
+  "year": 2010,
+  "price": 24.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb7ca"
+  },
+  "id": 782,
+  "first_name": "Cece",
+  "last_name": "Caldow",
+  "team": "Angels",
+  "State": "New York",
+  "year": 2010,
+  "price": 39.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb70a"
+  },
+  "id": 590,
+  "first_name": "Fidole",
+  "last_name": "Hookes",
+  "team": "Red Sox",
+  "State": "Pennsylvania",
+  "year": 2011,
+  "price": 4.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb870"
+  },
+  "id": 948,
+  "first_name": "Samuele",
+  "last_name": "Ifill",
+  "team": "Astros",
+  "State": "Maryland",
+  "year": 1997,
+  "price": 2.99
+},
+{
+  "_id": {
+    "$oid": "6a40947ce5b5295032fdb6ea"
+  },
+  "id": 558,
+  "first_name": "Rafi",
+  "last_name": "McCartan",
+  "team": "Red Sox",
+  "State": "Wisconsin",
+  "year": 2007,
+  "price": 12.99
+},
+{
+  "_id": {
+    "$oid": "6a411105c557571c8b670f44"
+  },
+  "team": "Mets",
+  "first_name": "Test",
+  "last_name": "Guy",
+  "State": "New York",
+  "year": 2019,
+  "price": 10
+},
+{
+  "_id": {
+    "$oid": "6a412925a5482c9aac66cb98"
+  },
+  "team": "Mets",
+  "first_name": "Test1",
+  "last_name": "Test1",
+  "State": "New York",
+  "year": 2026,
+  "price": 12
+}]
