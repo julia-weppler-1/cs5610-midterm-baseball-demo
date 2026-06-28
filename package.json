@@ -1,0 +1,17 @@
+{
+  "name": "cs5610-midterm-baseball-demo",
+  "version": "1.0.0",
+  "description": "This is the codebase I generated as part of the CS5610 midterm using ES6+, Express, Bootstrap, and NodeJS Driver for MongoDB",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.4.0"
+  }
+}

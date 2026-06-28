@@ -1,0 +1,46 @@
+import { MongoClient } from "mongodb";
+function MyMongoDB() {
+  const me = {};
+
+  const URI = "mongodb://localhost:27017";
+  const connect = () => {
+    const client = new MongoClient(URI);
+    const cards = client.db("baseball-cards").collection("cards");
+
+    return { client, cards };
+  };
+  me.getCards = async (query = {}) => {
+    const { client, cards } = connect();
+
+    try {
+      // this query returns a cursor
+      const data = await cards.find(query).toArray(); // find is MQL. joins/groupbys are the aggregate pipeline
+      console.log("Fetched data from Mongo:", data);
+      return data;
+    } catch (err) {
+      throw err;
+    } finally {
+      await client.close(); // usually close connection after a query so that the connection is killed and restarted with errors
+      // but this is actually not efficient
+    }
+  };
+
+
+  me.createCard = async (card) => {
+    const { client, cards } = connect();
+
+    try {
+        const result = await cards.insertOne(card);
+        console.log("inserted!");
+        return { _id: result.insertedId }
+    } catch (err) {
+        throw err;
+    } finally {
+        await client.close();
+    }
+  }
+  return me;
+}
+
+const myMongoDB = MyMongoDB();
+export default myMongoDB;

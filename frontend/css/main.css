@@ -1,0 +1,75 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid;
+  margin-bottom: 1.5rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+main section {
+  margin-bottom: 2rem;
+}
+
+main h2 {
+  font-size: 1.25rem;
+}
+
+.filter-bar {
+  max-width: 360px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+.card-tile {
+  border: 1px solid #e5e7eb;
+}
+
+.card-tile .card-body {
+  padding: 0.75rem;
+}
+
+.card-team {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.card-name {
+  font-size: 1rem;
+  margin: 0 0 0.35rem;
+}
+
+.card-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+.card-price {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+footer {
+  text-align: center;
+  color: #6b7280;
+  padding: 1rem 0;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 2rem;
+}
